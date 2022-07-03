@@ -77,6 +77,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+.header {
+  background: url("../img/cover.png") no-repeat;
+  overflow: hidden;
+  background-position: 35% 50%;
+  margin-top: -10px;
+}
 .header__content {
   max-width: 1192px;
   padding: 10px;
@@ -127,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__content .caption {
   display: flex;
   flex-direction: row;
-  align-self: end;
+  align-self: start;
 }
 .header__content .caption__about {
   display: flex;
@@ -177,23 +183,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #784F33;
 }
 .header__content .caption__agent {
-  width: 100%;
-  height: 681px;
-}
-
-.wrapper {
-  width: 100%;
   min-height: 100%;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  max-width: 565px;
 }
+
 ._container {
-  background: url("../img/cover.png") no-repeat;
-  max-width: 1100xppx;
+  max-width: 1200xppx;
   margin: 0 auto;
 }
-@media (max-width: 1112xppx) {
+@media (max-width: 1212xppx) {
   ._container {
     max-width: 970px;
   }
