@@ -143,16 +143,6 @@ $md4: 479.98;
 
   }
 }
-//.wrapper{
-//  width: 100%;
-//  min-height: 100%;
-//  overflow: hidden;
-//  display: flex;
-//  flex-direction: column;
-//  &._loaded{
-//
-//  }
-//}
 
 ._container{
   max-width: 1192px;
@@ -176,47 +166,60 @@ $md4: 479.98;
   max-width: 1192px;
   max-height: 530px;
   margin: 0 auto;
+
+  .feat5__content{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 80px 0 ;
+    align-items: center;
+
+  }
+
+
+
+
+  .feat5__cards{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 80px;
+  }
+  .feat5__card{
+    width: 325px;
+    height: 180px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    box-shadow: -2px 5px 16px #e3dfdf;
+
+
+  }
+  .blackcard{
+    background-color: #295C7A;
+    div{
+      color: white;
+    }
+  }
 }
-.feat5__content{
-  display: flex;
-  flex-direction: column;
-  margin: 100px 0 80px 0 ;
-  align-items: center;
-
-}
-
-
-.feat5__head{
+.headh2 {
   font-size: 40px;
   font-family: Martel;
   font-weight: 700;
   line-height: 50px;
   color: #252B42;
 }
-.feat5__text{
+.textd {
   margin-top: 30px;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #737373;
-  text-indent: 80px;
+  text-indent: 55px;
 }
-.feat5__cards{
-  display: flex;
-  justify-content:space-between;
-  margin-bottom: 80px;
-}
-.feat5__card{
-  width: 325px;
-  height: 180px;
-  background-color: #00000012;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.feat5__label{
+.label{
   font-size: 16px;
   color: #252B42;
   font-family: Martel;
@@ -224,12 +227,52 @@ $md4: 479.98;
   line-height: 24px;
   margin: 10px 0 0 0 ;
 }
-.blackcard{
-  background-color: #295C7A;
-  div{
-    color: white;
+
+.features7 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  //max-height: 700px;
+  margin: 0 auto;
+  background-color: #FAFAFA;
+
+
+  .feat7__content{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 80px 0 ;
+    align-items: center;
   }
+  .feat7__cards{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 80px;
+  }
+  .feat7__card{
+      display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin: 0 10px 10px 0;
+    padding:0 10px 10px 0;
+  }
+
+  .feat7__description{
+    text-indent: 0;
+    margin-top: 14px;
+  }
+  .feat7__cardbody{
+    max-width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+ }
+
+
+
 }
+
+
+
 
 
 
