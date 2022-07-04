@@ -231,8 +231,7 @@ $md4: 479.98;
 .features7 {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
-  //max-height: 700px;
+  max-width: 1192px;
   margin: 0 auto;
   background-color: #FAFAFA;
 
@@ -240,7 +239,7 @@ $md4: 479.98;
   .feat7__content{
     display: flex;
     flex-direction: column;
-    margin: 100px 0 80px 0 ;
+    margin: 100px 0 250px 0 ;
     align-items: center;
   }
   .feat7__cards{
@@ -266,9 +265,173 @@ $md4: 479.98;
     display: flex;
     flex-direction: column;
  }
+}
+.about2 {
+  //display: flex;
+  //flex-direction: column;
+  //max-width: 1192px;
+  margin: 0 auto;
+  height: 890px;
+
+  .about2__main {
+    margin: 100px 0 130px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about2__row {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .about2__text{
+    text-indent: 0;
+    text-align: center;
+  }
+
+  .about2__media a img  {
+    height: 440px;
+    width: 660px;
+  }
+
+  .about2__colum {
+    width: 320px;
+    align-self: center;
+  }
+  .about2__text2{
+    text-indent: 0;
+    margin: 10px 0 50px 0 ;
+  }
+  .about2__card1{
+    margin-bottom: 30px;
+    padding: 0 0 0 50px;
+background: url("/img/cardpeople.png") no-repeat;
+    h5{
+      font-family: Martel;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #252B42;
+    }
+    h6{
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: #737373;
+    }
+  }
+  .about2__card2{
+    background: url("/img/cardspeed.png") no-repeat;
+    padding: 0 0 0 50px;
+   h5{
+    font-family: Martel;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+  }
+    h6{
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: #737373;
+    }
+  }
+}
+
+.clients2__contant{
+display: flex;
+  justify-content: center;
+  background: linear-gradient( #FAFAFA 70%, #252B42 30%);
+  align-items: end;
 
 
 
+}
+.clients2__body{
+  display: flex;
+  flex-direction: column;
+  width: 986px;
+  height: 340px;
+  margin-bottom: -86px;
+
+  .clients2__icons{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .clients2__cardclient{
+    background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+    border-radius: 2px;
+    display: flex;
+    width: 986px;
+    height: 124px;
+    margin: 40px 0 20px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .clients2__enter{
+    height: 58px;
+    width: 450px;
+    background: white;
+  }
+  .clients2__entr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .clients2__email{
+    margin: 0 0 0 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .clients2__subscrible {
+    width: 117px;
+    height: 58px;
+    background: #D0A144;
+    border: 1px solid #E6E6E6;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+      color: white;
+      padding: 20px 40px 20px 40px;
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+    }
+  }
+  .clients2__cardbody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 58px;
+  }
+  .clients2__text h3{
+    font-family: Martel;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+
+
+
+
+}
+
+.contact4__contant{
+  background: #8ec2f2;
+  width: 1440px;
+  height: 808px;
 }
 
 
