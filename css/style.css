@@ -659,15 +659,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .link1 {
-  background: url("/img/bluephone.png") no-repeat;
+  background: url("../img/bluephone.png") no-repeat;
 }
 
 .link2 {
-  background: url("/img/bluelable.png") no-repeat;
+  background: url("../img/bluelable.png") no-repeat;
 }
 
 .link3 {
-  background: url("/img/blueletter.png") no-repeat;
+  background: url("../img/blueletter.png") no-repeat;
 }
 
 .footer3__contant {

@@ -21,13 +21,8 @@ $md4: 479.98;
   background: url("../img/cover.png") no-repeat;
   background-position: center;
   margin-top: -10px;
-  //display: flex;
-
-
 
   &__content{
-
-    //max-width: 1192px;
     max-width: 1440px;
     flex: 1 1 auto;
     padding: 10px;
@@ -267,9 +262,7 @@ $md4: 479.98;
     align-items:  center;
     justify-content: center;
     margin: 0 46px 0 46px ;
-    //padding:0 30px 30px 0;
     background: white;
-    //:last-child{margin-right: 0}
   }
 
   .feat7__description{
@@ -284,9 +277,6 @@ $md4: 479.98;
  }
 }
 .about2 {
-  //display: flex;
-  //flex-direction: column;
-  //max-width: 1192px;
   margin: 0 auto;
   height: 890px;
 
@@ -373,9 +363,6 @@ background: url("/img/cardpeople.png") no-repeat;
 display: flex;
   justify-content: center;
   align-items: end;
-
-
-
 }
 .clients2__body{
   display: flex;
@@ -617,13 +604,13 @@ display: flex;
 }
 .link1{
 
-background: url("/img/bluephone.png") no-repeat;
+background: url("../img/bluephone.png") no-repeat;
 }
 .link2{
-  background: url("/img/bluelable.png") no-repeat;
+  background: url("../img/bluelable.png") no-repeat;
 }
 .link3{
-  background: url("/img/blueletter.png") no-repeat;
+  background: url("../img/blueletter.png") no-repeat;
 }
 
 .footer3__contant{
