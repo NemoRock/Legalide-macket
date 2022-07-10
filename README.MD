@@ -1,6 +1,6 @@
 # Legalide site
 
-website layout,
+Website layout,
 [see for yourself](https://nemorock.github.io/Legalide-macket/)
 
 
