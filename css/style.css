@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
 .about2 .about2__card1 {
   margin-bottom: 30px;
   padding: 0 0 0 50px;
-  background: url("/img/cardpeople.png") no-repeat;
+  background: url("../img/cardpeople.png") no-repeat;
 }
 .about2 .about2__card1 h5 {
   font-family: Martel;
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #737373;
 }
 .about2 .about2__card2 {
-  background: url("/img/cardspeed.png") no-repeat;
+  background: url("../img/cardspeed.png") no-repeat;
   padding: 0 0 0 50px;
 }
 .about2 .about2__card2 h5 {
